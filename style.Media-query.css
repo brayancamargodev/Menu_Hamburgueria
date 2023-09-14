@@ -1,6 +1,6 @@
 /* Media Query para largura máxima de 600px */
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     h2 {
         font-size: 24px;
     }
@@ -10,8 +10,8 @@
     }
     
     .container-buttons {
-        gap: 9px;
-        padding: 66px;
+        gap: 18px;
+        padding: 10px;
     }
     
     ul {
