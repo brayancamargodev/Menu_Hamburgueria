@@ -1,0 +1,48 @@
+/* Media Query para largura máxima de 600px */
+
+@media (max-width: 600px) {
+    h2 {
+        font-size: 24px;
+    }
+    
+    body {
+        padding-top: 50px;
+    }
+    
+    .container-buttons {
+        gap: 20px;
+        padding: 10px;
+    }
+    
+    ul {
+        grid-template-columns: 150px 150px;
+    }
+    
+    li {
+        margin: 10px;
+        width: 120px;
+    }
+    
+    img {
+        height: 80px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+    
+    button {
+        padding: 10px;
+        width: 120px;
+        height: 83px;
+    
+    }
+    
+    .price {
+        font-size: 20px;
+    }
+
+    .list {
+        margin-top: 53px;
+    }
+}
