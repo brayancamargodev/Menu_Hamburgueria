@@ -9,6 +9,10 @@
         padding-top: 50px;
     }
     
+    span {
+        background-color: black;
+    }
+
     .container-buttons {
         gap: 18px;
         padding: 10px;
