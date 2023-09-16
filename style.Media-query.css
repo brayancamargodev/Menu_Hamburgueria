@@ -10,7 +10,13 @@
     }
     
     span {
-        background-color: black;
+       background-color: white;
+       color: black;
+       width: 100vw;
+       height: 35px;
+       cursor: pointer;
+       justify-content: center;
+       align-items: center; 
     }
 
     .container-buttons {
@@ -39,7 +45,7 @@
         padding: 10px;
         width: 120px;
         height: 83px;
-    
+        display: none;
     }
     
     .price {
@@ -49,4 +55,6 @@
     .list {
         margin-top: 53px;
     }
+
+    
 }
