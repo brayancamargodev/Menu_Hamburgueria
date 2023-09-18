@@ -8,15 +8,27 @@
     body {
         padding-top: 50px;
     }
+
+    header {
+        height: 120px;
+    }
     
+    .material-symbols-outlined { 
+        font-size: 35px;
+        display: flex;
+        justify-content: center; /* centraliza horizontalmente */
+    }
+
     span {
-       background-color: white;
-       color: black;
-       width: 100vw;
-       height: 35px;
-       cursor: pointer;
-       justify-content: center;
-       align-items: center; 
+        background-color: white;
+        color: black;
+        width: 120vw;
+        height: 35px;
+        cursor: pointer;
+        position: fixed;
+        top: 21%;
+        left: 51%;
+        transform: translate(-50%, -50%);
     }
 
     .container-buttons {
