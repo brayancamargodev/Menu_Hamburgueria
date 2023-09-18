@@ -24,6 +24,10 @@
         color: rgb(241, 71, 71);
     }
 
+    .menu-visivel {
+        display: block;   
+    }
+
     span {
         background-color: white;
         color: black;
@@ -39,6 +43,7 @@
     .container-buttons {
         gap: 18px;
         padding: 10px;
+        display: none;
     }
     
     ul {
@@ -59,10 +64,10 @@
     }
     
     button {
-        padding: 10px;
-        width: 120px;
-        height: 83px;
-        display: none;
+        width: 100%;
+        padding: 40px;
+        transform: translate(0%, 114%);
+        
     }
     
     .price {
