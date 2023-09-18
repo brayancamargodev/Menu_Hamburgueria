@@ -5,7 +5,7 @@ const veg = document.querySelector('.filter-vegan')
 const list = document.querySelector('.list')
 
 function format(value) {
-    return new Intl.NumberFormat('pt-BR ', {
+    return new Intl.NumberFormat('pt-BR', {
         style: 'currency',
         currency: 'BRL'
     }).format(value)
@@ -13,17 +13,17 @@ function format(value) {
 
 function mostrar(itens) {
 
-    let novlist = ''
+    let novlist = '';
 
     itens.forEach(item => {
         novlist = novlist + `
             <li>
                 <img src="${item.src}">
                 <p>${item.name}</p>
-                <p class='price'>R$${item.price}</p>
+                <p class='price'>${format(item.price)}</p>
             </li>
-        `
-    })
+        `;
+    });
 
     list.innerHTML = novlist
 }
