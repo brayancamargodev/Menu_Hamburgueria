@@ -6,7 +6,7 @@
     }
     
     body {
-        padding-top: 50px;
+        padding-top: 100px;
     }
 
     header {
@@ -67,8 +67,9 @@
         width: 100%;
         padding: 40px;
         transform: translate(0%, 114%);
-        
+        border-radius: 0;
     }
+
     
     .price {
         font-size: 20px;
