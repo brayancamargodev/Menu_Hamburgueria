@@ -10,13 +10,18 @@
     }
 
     header {
-        height: 120px;
+        height: 150px;
     }
     
     .material-symbols-outlined { 
         font-size: 35px;
         display: flex;
-        justify-content: center; /* centraliza horizontalmente */
+        justify-content: center;
+    }
+
+    span:hover {
+        background-color: black;
+        color: rgb(241, 71, 71);
     }
 
     span {
