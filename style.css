@@ -16,8 +16,14 @@ header {
     height: 140px;
 }
 
-h2 {
+h1 {
     color: black;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Phudu', cursive;
+    font-family: 'Sriracha', cursive;
+}
+
+h2 {
     font-size: 35px;
     font-family: 'Pacifico', cursive;
     font-family: 'Phudu', cursive;
