@@ -8,7 +8,7 @@
 
 header {
     background-color: rgb(241, 71, 71);
-    background-image: url(img/marca.png);
+    background-image: url(img/monstruoso-vegan.ed.png);
     background-repeat: no-repeat;
     position: fixed;
     top: 0;
@@ -17,6 +17,7 @@ header {
 }
 
 h2 {
+    color: black;
     font-size: 35px;
     font-family: 'Pacifico', cursive;
     font-family: 'Phudu', cursive;
