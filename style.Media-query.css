@@ -33,11 +33,7 @@
         color: black;
         width: 120vw;
         height: 35px;
-        cursor: pointer;
-        position: fixed;
-        top: 21%;
-        left: 51%;
-        transform: translate(-50%, -50%);
+        
     }
 
     .container-buttons {
@@ -66,7 +62,6 @@
     button {
         width: 100%;
         padding: 40px;
-        transform: translate(0%, 114%);
         border-radius: 0;
     }
 
