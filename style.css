@@ -53,6 +53,7 @@ body {
     align-items: center;
     gap: 50px;
     padding: 20px;
+    margin-top: 20px;
 }
 
 ul {
@@ -98,11 +99,9 @@ button {
     padding: 17px;
     cursor: pointer;
     width: 150px;
-    transition: transform 0.3s ease;
 }
 
 button:hover {
-    transform: translateY(10px);
     color: rgb(241, 71, 71);
     opacity: 0.9;
 }
