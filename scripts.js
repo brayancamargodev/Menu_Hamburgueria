@@ -63,7 +63,18 @@ function mostrar(itens) {
           menu.classList.remove("menu-visivel");
           menu.classList.add("container-buttons");
         }
-    } 
+    }
+
+    function clickdesa() {
+        var menu = document.getElementById("menu");
+        if (menu.classList.contains("container-buttons")) {
+          menu.classList.remove("container-buttons");
+          menu.classList.add("menu-visivel");
+        } else {
+          menu.classList.remove("menu-visivel");
+          menu.classList.add("container-buttons");
+        }
+    }
 
     menu.addEventListener('click' , () => mostrar(menuOptions))
     mapbotao.addEventListener('click', map)
