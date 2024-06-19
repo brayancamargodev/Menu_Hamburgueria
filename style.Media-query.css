@@ -23,6 +23,7 @@
         background-color: black;
         color: rgb(241, 71, 71);
         position: fixed;
+        cursor: pointer;
     }
 
     .menu-visivel {
@@ -30,7 +31,8 @@
         position: absolute;
         top: 100%;
         left: 0;
-        margin-top: 27px;   
+        margin-top: 27px;
+        cursor: pointer;   
     }
 
     span {
@@ -76,7 +78,7 @@
     }
 
     .list {
-       
+       margin-top: 56px;
     }
 
     
