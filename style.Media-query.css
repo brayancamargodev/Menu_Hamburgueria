@@ -22,10 +22,15 @@
     span:hover {
         background-color: black;
         color: rgb(241, 71, 71);
+        position: fixed;
     }
 
     .menu-visivel {
-        display: block;   
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        margin-top: 27px;   
     }
 
     span {
@@ -33,7 +38,7 @@
         color: black;
         width: 120vw;
         height: 35px;
-        
+        margin-top: 80px;
     }
 
     .container-buttons {
@@ -71,7 +76,7 @@
     }
 
     .list {
-        margin-top: 53px;
+       
     }
 
     
